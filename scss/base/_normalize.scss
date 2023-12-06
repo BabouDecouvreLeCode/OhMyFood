@@ -1,0 +1,60 @@
+.conteneur-principal {
+	width: 100%;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+	$main-font: "roboto";
+    $second-font: "shrikhand";
+
+
+    $main-bg-color:#F6F6F6;
+    $green-light:#99E2D0;
+    $green-dark:#008766;
+    $blue-light:#89C8FA;
+    $blue-dark:#003A68;
+    $purple:#9356DC;
+    $purple-light:#FF79DA;
+    $grey-light:#EAEAEA;
+    $grey-dark:#353535;
+
+
+body {
+	display: flex;
+	justify-content: center;
+    margin: 0;
+    font-family: $main-font;
+}
+
+.euro {
+	font-weight: 700;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h2{
+    font-family: $second-font;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 28px;
+}
+
+h4{
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom: solid #99E2D0 3px;
+    padding-bottom: 3px;
+    margin-bottom: 0%;
+    margin-top: 40px;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px;
+    padding-top: 15px;
+}
